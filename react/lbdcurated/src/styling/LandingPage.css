@@ -1,0 +1,85 @@
+
+.landing-page {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background-image {
+    background-image: url('../pictures/backdrop.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .center-box {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .center-box h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .shop-now-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #ff4500;
+  }
+  
+  .cards-section {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+  }
+  
+  .card-link {
+    text-decoration: none;
+    width: 30%;
+    margin: 0 10px;
+  }
+  
+  .card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+  }
+  
+  .card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .shop-all-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  .shop-all-card .card-link {
+    width: 60%;
+  }
+  
