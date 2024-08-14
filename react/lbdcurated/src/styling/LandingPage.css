@@ -54,7 +54,7 @@
     margin: 0 10px;
   }
   
-  .card {
+  .card1, .card2, .card3 {
     background-color: #f8f8f8;
     padding: 20px;
     border-radius: 10px;
@@ -67,16 +67,39 @@
     align-items: center;
     justify-content: center;
     color: #333;
+    font-weight: bold;
+  }
+
+  .card1 {
+    background-image: url('../pictures/tshirt-stack.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  .card2 {
+    background-image: url('../pictures/crewnecks.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+
+  .card3 {
+    background-image: url('../pictures/shopall.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
   }
   
-  .card:hover {
+  .card1:hover, .card2:hover, .card3:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   }
+
   
   .shop-all-card {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    padding-bottom: 50px;
   }
   
   .shop-all-card .card-link {

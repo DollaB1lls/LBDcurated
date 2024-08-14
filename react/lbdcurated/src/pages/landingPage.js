@@ -20,17 +20,19 @@ const LandingPage = () => {
 
       <div className="cards-section">
         <Link to="/shop/tshirts" className="card-link">
-          <div className="card">Shop T-Shirts</div>
+          <div className="card1">Shop T-Shirts</div>
         </Link>
         <Link to="/shop/crewnecks" className="card-link">
-          <div className="card">Shop Crewnecks</div>
+          <div className="card2">Shop Crewnecks</div>
         </Link>
       </div>
 
       <div className="shop-all-card">
         <Link to="/shop/all" className="card-link">
-          <div className="card">Shop All</div>
+          <div className="card3">Shop All</div>
         </Link>
+      </div>
+      <div className="footer">
       </div>
     </div>
   );
