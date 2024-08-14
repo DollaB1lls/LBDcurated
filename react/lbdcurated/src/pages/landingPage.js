@@ -8,7 +8,7 @@ const LandingPage = () => {
   return (
     <div className="landing-page">
       <header>
-        {/* Your Header Component goes here */}
+        {/* header here */}
       </header>
 
       <div className="background-image">

@@ -2,13 +2,14 @@
 .landing-page {
     text-align: center;
     font-family: Arial, sans-serif;
+    background-color: cornsilk;
   }
   
   .background-image {
     background-image: url('../pictures/backdrop.jpg');
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,13 +46,18 @@
   .cards-section {
     display: flex;
     justify-content: center;
-    margin: 50px 0;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    margin-right: 10%;
+    margin-left: 10%;
+
   }
   
   .card-link {
     text-decoration: none;
+    flex:  1 20%;
     width: 30%;
-    margin: 0 10px;
+    margin: 10px;
   }
   
   .card1, .card2, .card3 {
@@ -70,20 +76,20 @@
     font-weight: bold;
   }
 
-  .card1 {
+  .card1 { /* This card is for the tshirt button */
     background-image: url('../pictures/tshirt-stack.jpg');
     background-size: cover;
     background-position: center;
     color: white;
   }
-  .card2 {
+  .card2 { /* This card is for the crewneck button */
     background-image: url('../pictures/crewnecks.jpg');
     background-size: cover;
     background-position: center;
     color: white;
   }
 
-  .card3 {
+  .card3 { /* This card is for the shop all button */
     background-image: url('../pictures/shopall.jpg');
     background-size: cover;
     background-position: center;
@@ -100,6 +106,8 @@
     justify-content: center;
     margin-bottom: 50px;
     padding-bottom: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
   }
   
   .shop-all-card .card-link {
